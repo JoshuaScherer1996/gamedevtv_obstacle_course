@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    // Creating constants
+    const float xForce = 0f;
+    const float yForce = 0.01f;
+    const float zForce = 0f;
 
-    // Update is called once per frame
     void Update()
     {
-        transform.Translate(0.01f, 0f, 0f);
+        // Moveing the object in the specified directions.
+        transform.Translate(xForce, yForce, zForce);
     }
 }

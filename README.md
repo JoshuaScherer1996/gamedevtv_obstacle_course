@@ -14,3 +14,5 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 9. Transform property and Translate method.
 10. Arguments.
 11. Floating point numbers.
+12. Variables, constants and serialized fields.
+13. TBD.
