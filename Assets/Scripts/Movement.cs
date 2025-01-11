@@ -3,9 +3,9 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     // Creating constants
-    const float xForce = 0f;
-    const float yForce = 0.01f;
-    const float zForce = 0f;
+    [SerializeField] float xForce = 0f;
+    [SerializeField] float yForce = 0.01f;
+    [SerializeField] float zForce = 0f;
 
     void Update()
     {

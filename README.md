@@ -15,4 +15,5 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 10. Arguments.
 11. Floating point numbers.
 12. Variables, constants and serialized fields.
-13. TBD.
+13. Changing the play mode settings to quicker load the scene. Better for rapid prototyping. 
+14. TBD.
