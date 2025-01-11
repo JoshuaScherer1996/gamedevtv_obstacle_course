@@ -19,3 +19,5 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 14. Code refactoring, conventions and scope.
 15. Old and new input system.
 16. Input manager.
+17. Time.deltaTime to be independent from framerates. It calculates and evens out the movement for the frames of the computer based on the time passed.
+18. 
