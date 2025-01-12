@@ -28,4 +28,6 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 23. Implementing physics with Box Collider and Rigidbody.
 24. Using Triggers.
 25. What methods are and how to use them.
-26. TBD 
+26. Access modifiers, arguements, parameters, return, method body, method signature.
+27. Using OnCollisionEnter.
+28. Manipulating components with GetComponent. 
