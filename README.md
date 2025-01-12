@@ -23,4 +23,7 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 18. Using thrid party packages.
 19. Cinemachine.
 20. Cinemachine position control, rotation control and damping
-21. TBD
+21. Grouping with parent objects.
+22. Mesh Renderer.
+23. Implementing physics with Box Collider and Rigidbody.
+24. Using Triggers.
