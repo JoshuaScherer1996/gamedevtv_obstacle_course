@@ -7,7 +7,7 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 2. Creating simple 3D objects within the scene.
 3. Creating materials.
 4. Using colors.
-5. Adjsutinf smoothness.
+5. Adjusting smoothness.
 6. Creating Scripts.
 7. MonoBehaviour.
 8. Start and Update methods.
@@ -20,4 +20,7 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 15. Old and new input system.
 16. Input manager.
 17. Time.deltaTime to be independent from framerates. It calculates and evens out the movement for the frames of the computer based on the time passed.
-18. 
+18. Using thrid party packages.
+19. Cinemachine.
+20. Cinemachine position control, rotation control and damping
+21. TBD
