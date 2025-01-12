@@ -5,7 +5,24 @@ public class Movement : MonoBehaviour
 
     [SerializeField] float moveSpeed = 10f;
 
+    void Start() {
+        PrintInstruction();
+    }
+
     void Update()
+    {
+        MovePlayer();
+    }
+
+    // Printing some basic instructions to the console.
+    void PrintInstruction()
+    {
+        Debug.Log("Welcome to the game!");
+        Debug.Log("If you can see this that means that you are a developer. Great!");
+        Debug.Log("Use WASD to move. Don't bump into the obstacles!");
+    }
+
+    void MovePlayer()
     {
         // Creating variables
         float xForce = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
