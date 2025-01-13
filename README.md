@@ -33,4 +33,4 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 28. Manipulating components with GetComponent. 
 29. Increments and Decrements.
 30. String interpolation.
-31. TBD
+31. Directional light.
