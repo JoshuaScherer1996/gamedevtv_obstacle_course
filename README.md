@@ -40,3 +40,6 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 35. Using if statements as conditionals.
 36. Caching references.
 37. Learned about caching as storing frequently used data in memory.
+38. Using Tags.
+39. Accessing the tags from the same and from other objects.
+39. TBD

@@ -5,7 +5,10 @@ public class CollisionDetection : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        GetComponent<MeshRenderer>().material.color = Color.red;
-        Debug.Log("A collision happened!");
+        if (other.gameObject.tag == "Player")
+        {
+            GetComponent<MeshRenderer>().material.color = Color.red;
+            gameObject.tag = "Hitable";
+        }
     }
 }
