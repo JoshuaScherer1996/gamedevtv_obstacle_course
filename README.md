@@ -33,4 +33,7 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 28. Manipulating components with GetComponent. 
 29. Increments and Decrements.
 30. String interpolation.
-31. Directional light.
+31. Rotating directional light.
+32. Locking and hiding elements in the editor.
+33. Using Unity documentation.
+34. Time.time to access the  time at the beginning of the current frame in seconds.
