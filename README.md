@@ -37,3 +37,5 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 32. Locking and hiding elements in the editor.
 33. Using Unity documentation.
 34. Time.time to access the  time at the beginning of the current frame in seconds.
+35. Using if statements as conditionals.
+36. TBD.
