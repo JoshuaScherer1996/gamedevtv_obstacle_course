@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
 
     private void MovePlayer()
     {
-        // Creating variables
+        // Creating variables.
         float xForce = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
         float yForce = 0f;
         float zForce = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
