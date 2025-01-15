@@ -49,4 +49,6 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 44. Using triggers and trigger fields.
 45. Used arrays and loops to optimize the generic code with multiple instances for the projectiles.
 46. Definition and use of prefabs.
-47. TBD
+47. Definition and use of instances.
+48. Using the console to debug null references.
+49. TBD 
