@@ -3,9 +3,9 @@ using UnityEngine;
 public class Spin : MonoBehaviour
 {
     // Creating the variables.
-    [SerializeField] private float xRotationSpeed = 0f;
+    [SerializeField] private float xRotationSpeed;
     [SerializeField] private float yRotationSpeed = 60f;
-    [SerializeField] private float zRotationSpeed = 0f;
+    [SerializeField] private float zRotationSpeed;
 
     void Update()
     {
@@ -15,12 +15,11 @@ public class Spin : MonoBehaviour
     // Decides how the object rotates.
     void SpinObject()
     {
-        // Creating variables.
-        float xAngle = xRotationSpeed * Time.deltaTime;
-        float yAngle = yRotationSpeed * Time.deltaTime;
-        float zAngle = zRotationSpeed * Time.deltaTime;
-
         // Rotating the object.
-        transform.Rotate(xAngle, yAngle, zAngle);
+        transform.Rotate(
+            xRotationSpeed * Time.deltaTime, 
+            yRotationSpeed * Time.deltaTime, 
+            zRotationSpeed * Time.deltaTime
+            );
     }
 }
