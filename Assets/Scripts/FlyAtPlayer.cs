@@ -11,19 +11,7 @@ public class FlyAtPlayer : MonoBehaviour
     private void Awake()
     {
         // Deactivates the object.
-        Debug.Log($"{name}: Awake called");
         gameObject.SetActive(false);
-        Debug.Log($"{name}: player position is {playerPosition}");
-    }
-
-    private void Start()
-    {
-        // Gets the position opf the player Transfrom object.
-        Debug.Log($"The variable transform player is: {player.position}");
-        
-        Debug.Log($"The variable playerPosition is: {playerPosition}");
-        playerPosition = player.position;
-        Debug.Log($"The variable playerPosition is: {playerPosition}");
     }
 
     private void Update()
@@ -51,5 +39,11 @@ public class FlyAtPlayer : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    // Used to get the accurate player location from within the TriggerProjectile script.
+    public void SetTargetPosition(Vector3 position)
+    {
+        playerPosition = position;
     }
 }
