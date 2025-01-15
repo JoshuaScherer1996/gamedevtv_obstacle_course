@@ -17,8 +17,10 @@ public class FlyAtPlayer : MonoBehaviour
     void Update()
     {
         MoveTowards();
+        DestroyWhenReached();
     }
 
+    // Executes the projectile path and speed logic.
     void MoveTowards()
     {
         // Calculates the path and speed of the projectile.
@@ -27,5 +29,15 @@ public class FlyAtPlayer : MonoBehaviour
             playerPosition,
             projectileSpeed * Time.deltaTime
             );
+    }
+
+// Executes the destruction logic.
+    void DestroyWhenReached()
+    {
+        // When tje object position is equal to the target position it is destroyed.
+        if (transform.position == playerPosition)
+        {
+            Destroy(gameObject);
+        }
     }
 }

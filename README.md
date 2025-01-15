@@ -45,4 +45,5 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 40. Manipulating the rotation property.
 41. Using vectors and the MoveTowards method to control object paths.
 42. Referencing an object with a serialized field on another objectz.
-43. TBD 
+43. Destroying objects.
+44. TBD
