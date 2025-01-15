@@ -46,4 +46,7 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 41. Using vectors and the MoveTowards method to control object paths.
 42. Referencing an object with a serialized field on another objectz.
 43. Destroying objects.
-44. TBD
+44. Using triggers and trigger fields.
+45. Used arrays and loops to optimize the generic code with multiple instances for the projectiles.
+46. Definition and use of prefabs.
+47. TBD
