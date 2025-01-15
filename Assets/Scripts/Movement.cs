@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
+    // Cretaing the variables.
     [SerializeField] private float moveSpeed = 10f;
 
-    private void Start() {
+    private void Start()
+    {
         PrintInstruction();
     }
 
