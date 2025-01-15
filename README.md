@@ -51,4 +51,5 @@ This repository contains the game I developed for the GameDev.Tv course C# 3D on
 46. Definition and use of prefabs.
 47. Definition and use of instances.
 48. Using the console to debug null references.
-49. TBD 
+49. Learned about the order of execution for event functions. Really interesting topic which can be found in the [documentation](https://docs.unity3d.com/Manual/execution-order.html).
+50. TBD

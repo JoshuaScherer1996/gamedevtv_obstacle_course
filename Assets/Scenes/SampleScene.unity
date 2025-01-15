@@ -1283,6 +1283,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1643941880}
     m_Modifications:
     - target: {fileID: 225438355161268318, guid: 8d64c775a66b8b54381ad7b43ef5a303, type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 49013076}
+    - target: {fileID: 225438355161268318, guid: 8d64c775a66b8b54381ad7b43ef5a303, type: 3}
+      propertyPath: projectile2
+      value: 
+      objectReference: {fileID: 1217606700}
+    - target: {fileID: 225438355161268318, guid: 8d64c775a66b8b54381ad7b43ef5a303, type: 3}
+      propertyPath: projectile3
+      value: 
+      objectReference: {fileID: 268523391}
+    - target: {fileID: 225438355161268318, guid: 8d64c775a66b8b54381ad7b43ef5a303, type: 3}
       propertyPath: 'projectiles.Array.data[0]'
       value: 
       objectReference: {fileID: 49013076}
@@ -1316,7 +1328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 764717162280712656, guid: 8d64c775a66b8b54381ad7b43ef5a303, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.96
+      value: 14.03
       objectReference: {fileID: 0}
     - target: {fileID: 764717162280712656, guid: 8d64c775a66b8b54381ad7b43ef5a303, type: 3}
       propertyPath: m_LocalRotation.w

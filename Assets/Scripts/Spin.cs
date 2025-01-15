@@ -7,13 +7,13 @@ public class Spin : MonoBehaviour
     [SerializeField] private float yRotationSpeed = 60f;
     [SerializeField] private float zRotationSpeed;
 
-    void Update()
+    private void Update()
     {
         SpinObject();
     }
 
     // Decides how the object rotates.
-    void SpinObject()
+    private void SpinObject()
     {
         // Rotating the object.
         transform.Rotate(
