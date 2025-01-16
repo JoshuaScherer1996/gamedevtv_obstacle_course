@@ -25,7 +25,6 @@ public class TriggerProjectile : MonoBehaviour
                         flyAtPlayer.SetTargetPosition(playerSnapshotPosition);
                     }
 
-
                     // Activates the projectile instances.
                     projectile.SetActive(true);
                 }
