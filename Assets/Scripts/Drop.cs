@@ -3,7 +3,7 @@ using UnityEngine;
 public class Drop : MonoBehaviour
 {
     // Cretaing the variables.
-    const float timeToDrop = 3.0f;
+    [SerializeField] private float timeToDrop = 3.0f;
     private MeshRenderer meshRenderer;
     private Rigidbody rigidBody;
 
